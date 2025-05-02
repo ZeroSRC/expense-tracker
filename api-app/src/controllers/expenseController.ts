@@ -9,6 +9,7 @@ class ExpenseController {
   getAllExpenses = async (req: Request, res: Response) => {
     try {
       const expenses = await googleSheetService.getAllExpenses();
+      console.log('test ได้บ่อ',expenses);
       return res.status(200).json({ success: true, data: expenses });
     } catch (error: any) {
       return res.status(500).json({ success: false, error: error.message });

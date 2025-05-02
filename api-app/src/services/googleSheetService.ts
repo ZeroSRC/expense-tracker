@@ -25,7 +25,7 @@ class GoogleSheetService {
       });
 
       const rows = response.data.values || [];
-      
+      console.log('test ระบบ',response)
       return rows.map((row, index) => ({
         id: (index + 2).toString(), // ใช้เลขแถวเป็น ID
         date: row[0],
