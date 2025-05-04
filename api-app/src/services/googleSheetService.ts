@@ -12,7 +12,7 @@ interface Expense {
 
 class GoogleSheetService {
   // ชื่อของชีทที่เราจะใช้งาน (เช่น "Expenses")
-  private sheetName = 'Expenses';
+  private sheetName = 'expenses-data';
 
   /**
    * ดึงข้อมูลรายรับรายจ่ายทั้งหมด
