@@ -9,9 +9,9 @@
         <div class="flex flex-row justify-center">
             <p>{{ $t('welcome') }}</p>
         </div>
-        <div class="flex flex-row justify-center h-fit">
-            <nuxt-link to="/authen-form">
-                <a-button type="primary" shape="round" class="w-[200px]">
+        <div class="flex flex-row justify-center h-fit w-[100%]">
+            <nuxt-link to="/authen-form" class="w-[100%]">
+                <a-button type="primary" class="w-[100%] rounded-full">
                     หน้าหลัก
                 </a-button>
             </nuxt-link>

@@ -1,0 +1,2 @@
+คำสั่ง
+1.npx prisma migrate dev --name add-(model) // เพิ่ม Model ใหม่

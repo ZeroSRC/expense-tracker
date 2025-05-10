@@ -1,6 +1,11 @@
 {
     "welcome": "Welcome",
     "description": "This is an example.",
-    "LOGO":"LOGO"
+    "LOGO":"LOGO",
+    "SIGN_IN":"Sign in",
+    "LOGIN":{
+      "USERNAME":"Username / Email",
+      "PASSWORD":"Password"
+    }
   }
   
